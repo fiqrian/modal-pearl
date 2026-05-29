@@ -1,5 +1,5 @@
 """
-Akoya Pearl Miner on Modal.com — Serverless H100 Mining
+Akoya Pearl Miner on Modal.com — Serverless H200 Mining
 Deploy: modal deploy akoya_modal.py
 Run:    modal run akoya_modal.py
 """
@@ -9,8 +9,8 @@ import modal
 app = modal.App("akoya-pearl-miner")
 
 WALLET = "prl1pnhqvnl7hv8g00kdfxnj7y888er28cfyynde2z022hd8rdd44ca2qnyw73g"
-WORKER = "modal-h100"
-GPU = "H100"
+WORKER = "modal-h200"
+GPU = "H200"
 TIMEOUT = 86400
 
 akoya_image = (
